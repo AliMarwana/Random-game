@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Range choice</title>
+</head>
+<body>
+    <header class="title_class">
+        <div class="div_title">
+        <h2 class="title_header">Please enter your range limits</h2>
+    </div>
+    </header>
+    <div class="div_inputs_number">
+        <div class="div_para_inputs_number">
+    <p class="para_inputs_number">o</p>
+
+     <div class="inputs_and_btn">
+    <input type="number" name="range_min" id="range_min" placeholder="Min limit">
+    <input type="number" name="range_max" id="range_max" placeholder="Max limit">
+    
+    <button type="submit" class="btn_range_input" onclick="choiceRange()">Start the game</button>
+    
+        </div>
+</div>
+</div>
+<script >
+    var usernameGlobal = localStorage.getItem('username-value');
+        var txt_msg = "Welcome, "+localStorage.getItem('username-value')+"!";
+        document.getElementsByClassName("para_inputs_number")[0].innerHTML =txt_msg;
+         
+        </script>
+<script src="script.js"></script>
+</body>
+</html>

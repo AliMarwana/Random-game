@@ -1,0 +1,148 @@
+
+.title_class
+{
+    display: flex;
+    align-items:center;
+    margin-left: 30%;
+    height: auto;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    font-size:medium;
+  
+} 
+.btn_start
+{
+    display: flex;
+    align-items:center;
+    /*margin-left: 30%;*/
+    font-weight: bold;
+    margin:auto;
+    border-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    font-family:sans-serif;
+    background-color: rgb(58, 202, 58);
+    box-sizing: border-box;
+    font-size:medium;
+}
+.btn_rules
+{
+    display: flex;
+    align-items:center;
+  /*  margin-left: 30%;*/
+    margin: auto;
+    height: auto;
+    font-family:sans-serif;
+    background-color: orange;
+    box-sizing: border-box;
+    font-size:medium;
+}
+.username_start
+{
+    display: flex;
+    align-items:center;
+    margin-left: 30%;
+    height: auto;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    font-size:medium;
+  
+} 
+.label_input_username
+{
+ 
+    font-family:sans-serif;
+    font-weight: bold;
+    
+} 
+.div_inputs_number
+{
+    display: table;
+    width: 50%;
+    font-family: Arial;
+    font-weight: bold;
+    margin:0 auto;
+    
+   /* align-items: center;
+    vertical-align: middle;
+    margin:1% 10%;
+    height: 100px;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    font-size:medium;*/
+  
+} 
+.div_choose_number
+{
+    margin: 0 auto;
+    width: 50%;
+}
+.div_inputs_number
+{
+    display: table;
+    width: 50%;
+    font-family: Arial;
+    font-weight: bold;
+    margin:0 auto;
+    
+   /* align-items: center;
+    vertical-align: middle;
+    margin:1% 10%;
+    height: 100px;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    font-size:medium;*/
+  
+}
+.inputs_and_btn
+{
+display: table-cell;
+vertical-align: middle;
+
+} 
+#range_min
+{
+    margin: 10px;
+    
+} 
+.btn_range_input
+{
+    margin: 10px;
+    
+} 
+
+.choice_number_text
+{
+    font-family: Arial;
+    font-weight: bold;
+    
+} 
+#snack_message
+{
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    
+} 
+.class_rules
+{
+    display: table;
+    width: 50%;
+    font-family: Arial;
+    font-weight: bold;
+    margin:0 auto;
+    
+   /* align-items: center;
+    vertical-align: middle;
+    margin:1% 10%;
+    height: 100px;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    font-size:medium;*/
+  
+}

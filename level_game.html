@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="title_class">
+    <div class="div_title">
+      <h2 class="title_header">Choose your number</h2>
+    </div>
+  </header>
+  <main>
+    <div class="div_choose_number">
+      <p class="choice_number_text"></p>
+      <p class="level_number"></p>
+      <label>Enter your number:</label>
+      <input type="number" name="number_chosen" id="number_chosen">
+      <button type="submit" class="check_random_btn" onclick="comparison_random()">Check</button>
+      <p class="msg_confirm">You have 3 chances now.</p>
+      <button class="btn_retry" type="submit" onclick="retry()">Retry</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+  <script>
+    var usernameGlobal = localStorage.getItem('username-value');
+    var txt_msg = "Do your best " + localStorage.getItem('username-value') + "!";
+    document.getElementsByClassName("choice_number_text")[0].innerHTML = txt_msg;
+
+    var level_number_low = localStorage.getItem('min-range');
+    var level_number_high = localStorage.getItem('max-range');
+    localStorage.setItem('level-number', 1);
+    var txtLevel = "Stage 1: Range between " + level_number_low + " and " + level_number_high;
+    document.getElementsByClassName("level_number")[0].innerHTML = txtLevel;
+
+    var isWinner = true;
+    localStorage.setItem('winner-state', isWinner);
+
+    var number_chances = 3;
+    localStorage.setItem('number-chances', number_chances);
+  </script>
+</body>
+
+</html>
